@@ -1,0 +1,11 @@
+{
+	"name": "@metalab/generator-editorconfig",
+	"version": "0.1.0",
+	"description": "Setup editorconfig for your project.",
+	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
+	"repository": "",
+	"dependencies": {
+		"yeoman-generator": "^0.20.1",
+		"open": "^0.0.5"
+	}
+}
