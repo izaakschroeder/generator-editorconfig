@@ -3,9 +3,10 @@
 	"version": "0.1.0",
 	"description": "Setup editorconfig for your project.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
-	"repository": "",
+	"repository": "izaakschroeder/generator-editorconfig",
+	"license": "CC0-1.0",
 	"dependencies": {
 		"yeoman-generator": "^0.20.1",
-		"open": "^0.0.5"
+		"yeoman-util": "^0.2.0"
 	}
 }
