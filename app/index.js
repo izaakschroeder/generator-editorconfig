@@ -1,29 +1,21 @@
 var generators = require('yeoman-generator');
-var open = require('open');
+var util = require('yeoman-util');
 
 module.exports = generators.Base.extend({
-	initializing: function() {
 
-	},
+	initializing: util.defaults(function() {
+
+	}),
 
 	prompting: function () {
 
 	},
 
-	writing: function() {
-
-		// TODO: Auto detect what languages are being used and add the rules
-		// for those languages.
-
-		this.fs.copyTpl(
-			this.templatePath('default.ini'),
-			this.destinationPath('.editorconfig'),
-			{
-			}
-		);
+	writing: {
+		editorconfig: util.copy('.editorconfig', 'default.ini')
 	},
 
-	end: function() {
-		open(this.destinationPath('.editorconfig'));
+	end: {
+		editorconfig: util.open('.editorconfig')
 	}
 });
