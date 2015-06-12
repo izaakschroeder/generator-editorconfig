@@ -1,6 +1,6 @@
 {
 	"name": "@metalab/generator-editorconfig",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Setup editorconfig for your project.",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"repository": "izaakschroeder/generator-editorconfig",
