@@ -12,10 +12,10 @@ module.exports = generators.Base.extend({
 	},
 
 	writing: {
-		editorconfig: util.copy('.editorconfig', 'default.ini')
+		editorconfig: util.copy('~.editorconfig', 'default.ini')
 	},
 
 	end: {
-		editorconfig: util.open('.editorconfig')
+		editorconfig: util.open('~.editorconfig')
 	}
 });
