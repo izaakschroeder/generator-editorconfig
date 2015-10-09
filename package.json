@@ -7,6 +7,6 @@
   "license": "CC0-1.0",
   "main": "./app/index.js",
   "dependencies": {
-    "yeoman-util": "^0.4.1"
+    "yeoman-util": "^0.5.2"
   }
 }
